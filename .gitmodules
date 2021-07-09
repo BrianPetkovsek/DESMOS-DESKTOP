@@ -1,0 +1,3 @@
+[submodule "AdvancedWebArchiver"]
+	path = AdvancedWebArchiver
+	url = https://github.com/BrianPetkovsek/AdvancedWebArchiver.git

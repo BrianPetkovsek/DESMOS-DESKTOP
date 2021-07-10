@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-	"setup_deps": "cd AdvancedWebArchiver && npm install && cd .. && cd scripts && npm install && cd .. && node scripts/setup_deps.js",
-	"patch_deps": "node scripts/patch_deps.js",
+    "setup_deps": "cd AdvancedWebArchiver && npm install && cd .. && cd scripts && npm install && cd .. && node scripts/setup_deps.js",
+    "patch_deps": "node scripts/patch_deps.js",
     "start": "npm run patch_deps && cd AdvancedWebArchiver && npm run start",
-	"pack": "cd AdvancedWebArchiver && npm run pack && cd .. && node scripts/move_build.js",
+    "pack": "cd AdvancedWebArchiver && npm run pack && cd .. && node scripts/move_build.js",
     "dist": "cd AdvancedWebArchiver && npm run dist && cd .. && node scripts/move_build.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,8 +20,6 @@
     "url": "https://github.com/BrianPetkovsek/DESMOS-DESKTOP/issues"
   },
   "homepage": "https://github.com/BrianPetkovsek/DESMOS-DESKTOP#readme",
-  "dependencies": {
-  },
-  "devDependencies": {
-  }
+  "dependencies": {},
+  "devDependencies": {}
 }

@@ -1,1 +1,1 @@
---DEBUG -DATAPATH=./../LIVE_DATA_LINE -WEBSITE=https://www.desmos.com/calculator -REPLAY=false
+--DEBUG -REPLAY -DATAPATH=./DATA -WEBSITE=https://www.desmos.com/calculator
